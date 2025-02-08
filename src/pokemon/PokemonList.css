@@ -1,0 +1,55 @@
+.bi.bi-tencent-qq {
+    color: rgb(4, 4, 141);
+}
+
+a {
+    color: rgb(4, 4, 141);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.list-group-item {
+    background: #f0efeb;
+    opacity: 0.93;
+}
+
+.list-group-item:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    height: 100vh;
+}
+
+.footer {
+    height: 50px;
+    margin-top: auto;
+}
+
+
+@media (max-width: 580px) {
+    .pokemon-data {
+        flex-direction: column;
+    }
+
+    .pokemon-list {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 478px) {
+    .footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
