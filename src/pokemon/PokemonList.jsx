@@ -85,7 +85,7 @@ function PokemonList() {
             <hr />
             <div className="container footer d-flex justify-content-between pb-5">
                 <span className="text-white">Copyright &copy; 2025 by Pokemons</span>
-                <span className="text-white">Officialy connected to <a href="https://pokeapi.co/"> pokeAPI</a></span>
+                <span className="text-white">Officially connected to <a href="https://pokeapi.co/"> pokeAPI</a></span>
             </div>
         </div>
     );
