@@ -51,7 +51,7 @@ function PokemonList() {
                 </div>
             </div>
             <hr />
-            <div className="container my-4">
+            <div className="container my-4 h-100">
                 <div className="row pokemon-data">
                     <div className="col pokemon-list">
                         {isLoading ? (
