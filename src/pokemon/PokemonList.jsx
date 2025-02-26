@@ -32,7 +32,7 @@ function PokemonList() {
     }
 
     return (
-        <div className="main-container">
+        <div className="main-container d-flex flex-column">
             <div className="container text-center my-3 d-flex justify-content-between align-items-center bg-">
                 <i className="bi bi-tencent-qq fs-1 fw-bold">api</i>
                 <div className="buttons">
@@ -51,7 +51,7 @@ function PokemonList() {
                 </div>
             </div>
             <hr />
-            <div className="container my-4 h-100">
+            <div className="container my-4">
                 <div className="row pokemon-data">
                     <div className="col pokemon-list">
                         {isLoading ? (

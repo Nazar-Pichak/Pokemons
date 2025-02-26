@@ -27,12 +27,6 @@ hr {
     text-decoration: underline;
 }
 
-.main-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 .footer {
     height: 50px;
     margin-top: auto;
